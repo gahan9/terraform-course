@@ -7,10 +7,10 @@ resource "aws_instance" "lesson_05" {
     aws_security_group.sg_https.id,
     aws_security_group.sg_http.id
   ]
-  
+
 
   tags = {
-    Name        = "Lesson_05"
+    Name = "Lesson_05"
   }
 }
 
